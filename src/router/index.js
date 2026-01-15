@@ -10,7 +10,7 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/hola",
+    path: "/hola/:id",
     name: "hola",
     component: holaMundo,
   },
